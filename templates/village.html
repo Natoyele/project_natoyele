@@ -2,7 +2,7 @@
 
 <div class="container">
    {% block content %}
-   <p> Enregistrement d'un village</p>
+   <p class="text-primary"> Enregistrement d'un village</p>
 <form method="post" class="col-sm-12 col-md-6">
    {% csrf_token %}
    {{form.as_p}}
